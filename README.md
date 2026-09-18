@@ -39,8 +39,8 @@ Outputs of this program are true and predicted eigenvalues, true and predicted p
     Calc. Potential : 0.0000 0.8754 1.4646 2.2177 2.4531 2.9272 3.3763 3.4309 3.8719 3.9300
     . . .
 
-An example graph is shown below for seed = 669. The target confinement function (curve) and computed sampled 
-stochastic potential (points) fit fairly well after about 2.9 million iterations.
+An example graph is shown below for seed = 669. The target confinement function (curve) and computed 
+stochastic potential sample values (points) fit fairly well after about 2.9 million iterations.
 
 
 <img width="796" height="572" alt="output_669" src="https://github.com/user-attachments/assets/67fb9d06-5928-4211-ae7d-3426a8268c32" />
