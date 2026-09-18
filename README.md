@@ -1,5 +1,4 @@
-Heer I provide two independent ROOT macro programs.
-The details of the study can be found at: arXiv:2605.23896
+Here We provide two independent ROOT macro programs.
 
 EigenGenerator.C
   solves non relaativistic Schrodinger equation to obtain energy eigenvalues and wavefunctions
@@ -23,3 +22,5 @@ PotentialSolver.C
      Veff(r) = -alpha_s/r +  Vconf(r)
      
  The aim is to extract Vconf(r) using a stocastic (Monte Carlo) approach if eigenvalues are given.
+
+The details of the study can be found at: arXiv:2605.23896
