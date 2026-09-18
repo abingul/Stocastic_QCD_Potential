@@ -24,7 +24,8 @@ We define an effective potential as
      V_{eff}(r) = -\frac{\alpha_s} {r} +  V_{conf}(r)
 ```
 The aim is to extract $V_{conf}(r)$ using a stocastic (Monte Carlo) approach if eigenvalues are given.
-Output utput are eigenvalues and potential values like
+Outputs of this program are eigenvalues calculated, potential values and a graph of the sample points and 
+true confinement potential like
 
     . . .
     Trail# = 27798   chi2 = 0.0144 seed = 669
