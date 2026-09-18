@@ -38,6 +38,7 @@ true confinement potential like
     Calc. Potential : 0.0000 0.8754 1.4646 2.2177 2.4531 2.9272 3.3763 3.4309 3.8719 3.9300
     . . .
 
-<img width="796" height="572" alt="output_669" src="https://github.com/user-attachments/assets/67fb9d06-5928-4211-ae7d-3426a8268c32" />
+An example graph is shown below. The target confinement function (curve) and computed sampled stochastic potential (points) fit fairly well after about 2.9 million iterations
 
-The target confinement function (curve) and computed sampled stochastic potential (points) fit fairly well after about 2.9 million iterations
+
+<img width="796" height="572" alt="output_669" src="https://github.com/user-attachments/assets/67fb9d06-5928-4211-ae7d-3426a8268c32" />
