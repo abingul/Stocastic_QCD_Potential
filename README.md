@@ -26,13 +26,13 @@ We define an effective potential as
 The aim is to extract $V_{conf}(r)$ using a stocastic (Monte Carlo) approach if eigenvalues are given.
 Output utput are eigenvalues and potential values like
 
-   . . .
-   Trail# = 27798   chi2 = 0.0144 seed = 669
-   True  Energies  : 0.6250 1.3928 1.9254 2.3488 2.7027 3.0065 3.2711 3.5038 3.7114 3.9092 4.1243 4.3717
-   Calc. Energies  : 0.6219 1.3484 1.9156 2.3656 2.6688 3.0422 3.3313 3.4922 3.6938 3.9297 4.1688 4.4281
+    . . .
+    Trail# = 27798   chi2 = 0.0144 seed = 669
+    True  Energies  : 0.6250 1.3928 1.9254 2.3488 2.7027 3.0065 3.2711 3.5038 3.7114 3.9092 4.1243 4.3717
+    Calc. Energies  : 0.6219 1.3484 1.9156 2.3656 2.6688 3.0422 3.3313 3.4922 3.6938 3.9297 4.1688 4.4281
 
-   True  Potential : 0.0000 0.8144 1.4961 2.0668 2.5445 2.9444 3.2792 3.5595 3.7941 3.9905
-   Calc. Potential : 0.0000 0.8387 1.3887 2.2306 2.3856 3.1690 3.3479 3.3742 3.8925 4.6044
-   . . .
+    True  Potential : 0.0000 0.8144 1.4961 2.0668 2.5445 2.9444 3.2792 3.5595 3.7941 3.9905
+    Calc. Potential : 0.0000 0.8387 1.3887 2.2306 2.3856 3.1690 3.3479 3.3742 3.8925 4.6044
+    . . .
 
 The details of the study can be found at: arXiv:2605.23896
