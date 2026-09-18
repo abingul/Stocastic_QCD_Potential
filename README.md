@@ -28,8 +28,7 @@ We define an effective potential as
      V(r) = -\frac{\alpha_s} {r} +  V_{conf}(r)
 ```
 The aim is to extract $V_{conf}(r)$ using a stocastic (Monte Carlo) approach if eigenvalues are given.
-Outputs of this program are eigenvalues calculated, potential values and a graph of the sample points and 
-true confinement potential like
+Outputs of this program are true and predicted eigenvalues, true and predicted potential values and the graph of the sample points like
 
     . . .
     Trail# = 2882999   chi2 = 0.0042 seed = 669
@@ -40,7 +39,8 @@ true confinement potential like
     Calc. Potential : 0.0000 0.8754 1.4646 2.2177 2.4531 2.9272 3.3763 3.4309 3.8719 3.9300
     . . .
 
-An example graph is shown below. The target confinement function (curve) and computed sampled stochastic potential (points) fit fairly well after about 2.9 million iterations
+An example graph is shown below for seed = 669. The target confinement function (curve) and computed sampled 
+stochastic potential (points) fit fairly well after about 2.9 million iterations.
 
 
 <img width="796" height="572" alt="output_669" src="https://github.com/user-attachments/assets/67fb9d06-5928-4211-ae7d-3426a8268c32" />
