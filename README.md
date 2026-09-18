@@ -15,7 +15,7 @@ For the given configuration outputs of this program are the graph of the confine
 correspondig eigenvalues like:
 
     Eigenvalues of 12 states:
-    0.624983, 1.39276, 1.92537, ... ,4.37172
+    0.624983, 1.39276, 1.92537, 2.34877, 2.70275, 3.00647, 3.27107, 3.50385, 3.71141, 3.90917, 4.12433, 4.37172
 
 * **PotentialSolver.C**
 
