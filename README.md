@@ -7,7 +7,7 @@ Here We provide two independent ROOT macro programs.
 solves Schrodinger equation to obtain energy eigenvalues and wavefunctions
 for a simple q-qbar bound system where the effective potential is defined as
 ```math
-      V_{eff}(r) = -\frac{\alpha_s} {r} +  \frac{\sigma} {\mu} \left( 1-\exp(-\mu r) \right)
+      V(r) = -\frac{\alpha_s} {r} +  \frac{\sigma} {\mu} \left( 1-\exp(-\mu r) \right)
 ```
 Here first term is called the Coulomb part and second term is the confinement part
 which is in this case a screeing function. We assume that quantum numbers are $L = S = 0$.
@@ -23,7 +23,7 @@ For the given eigenvalues, this ROOT macro solves Schrodinger equation to obtain
 approximate form of the confinement part of a simple q-qbar bound system.
 We define an effective potential as
 ```math
-     V_{eff}(r) = -\frac{\alpha_s} {r} +  V_{conf}(r)
+     V(r) = -\frac{\alpha_s} {r} +  V_{conf}(r)
 ```
 The aim is to extract $V_{conf}(r)$ using a stocastic (Monte Carlo) approach if eigenvalues are given.
 Outputs of this program are eigenvalues calculated, potential values and a graph of the sample points and 
