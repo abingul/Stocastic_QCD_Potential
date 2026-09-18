@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
+en//////////////////////////////////////////////////////////////////////////////////////////////
 // EigenGenerator.C
 //
 // This ROOT macro solves Schrodinger equation to obtain energy eigenvalues and wavefunctions
@@ -56,7 +56,7 @@ double F(double r, double E){
 }
 
 // the genrator function
-void generator(){
+void EigenGenerator(){
   const int  N = 2000;
   double rmin  = -0;
   double rmax  = +20;
@@ -122,5 +122,5 @@ void generator(){
 
 // main function
 int main(){
-  generator();
+  EigenGenerator();
 }
