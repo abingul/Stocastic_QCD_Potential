@@ -36,4 +36,7 @@ true confinement potential like
     Calc. Potential : 0.0000 0.8387 1.3887 2.2306 2.3856 3.1690 3.3479 3.3742 3.8925 4.6044
     . . .
 
+<img width="796" height="572" alt="output_669" src="https://github.com/user-attachments/assets/67fb9d06-5928-4211-ae7d-3426a8268c32" />
+
+
 The details of the study can be found at: arXiv:2605.23896
