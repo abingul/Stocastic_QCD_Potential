@@ -1,8 +1,8 @@
-The details of the study can be found at: arXiv:2605.23896
+**The details of the study can be found at: arXiv:2605.23896**
 
 Here We provide two independent ROOT macro programs.
 
-* EigenGenerator.C
+* **EigenGenerator.C**
 
 solves Schrodinger equation to obtain energy eigenvalues and wavefunctions
 for a simple q-qbar bound system where the effective potential is defined as
@@ -17,7 +17,7 @@ correspondig eigenvalues like:
     Eigenvalues of 12 states:
     0.624983, 1.39276, 1.92537, ... ,4.37172
 
-* PotentialSolver.C
+* **PotentialSolver.C**
 
 For the given eigenvalues, this ROOT macro solves Schrodinger equation to obtain
 approximate form of the confinement part of a simple q-qbar bound system.
