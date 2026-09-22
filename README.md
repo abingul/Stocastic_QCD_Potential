@@ -2,9 +2,9 @@
 
 Here We provide two independent ROOT macro programs.
 
-* **EigenGenerator.C**
+* **StocasticSolver.h**
 
-solves Schrodinger equation to obtain energy eigenvalues and wavefunctions
+This class has some optionss. The main aim is to solve Schrodinger equation to obtain energy eigenvalues and wavefunctions
 for a simple q-qbar bound system where the effective potential is defined as
 ```math
       V(r) = -\frac{\alpha_s} {r} +  \frac{\sigma} {\mu} \left( 1-\exp(-\mu r) \right)
@@ -19,9 +19,9 @@ correspondig eigenvalues like:
 
 These values can be input for PotentialSolver() function given below.
 
-* **PotentialSolver.C**
+* **skeleton.cc**
 
-For the given eigenvalues, this ROOT macro solves Schrodinger equation to obtain
+This is the main program which includes StocasticSolver.h For the given eigenvalues, this ROOT macro solves Schrodinger equation to obtain
 approximate form of the confinement part of a simple q-qbar bound system.
 We define an effective potential as
 ```math
