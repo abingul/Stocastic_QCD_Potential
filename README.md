@@ -54,12 +54,12 @@ he main ROOT macro program that implements the stochastic reconstruction algorit
 ## Citation
 If you use this code or method in your research, please cite
 
-@article{Bingul:2026stochastic,
-  author        = "Bing{\"u}l, Ahmet and {\"O}zpineci, Altu{\u{g}}",
-  title         = "{A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia}",
-  journal       = "arXiv preprint arXiv:2605.23896",
-  archivePrefix = "arXiv",
-  eprint        = "2605.23896",
-  primaryClass  = "hep-ph",
-  year          = "2026"
-}
+    @article{Bingul:2026stochastic,
+     author        = "Bing{\"u}l, Ahmet and {\"O}zpineci, Altu{\u{g}}",
+     title         = "{A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia}",
+     journal       = "arXiv preprint arXiv:2605.23896",
+     archivePrefix = "arXiv",
+     eprint        = "2605.23896",
+     primaryClass  = "hep-ph",
+     year          = "2026"
+   }
