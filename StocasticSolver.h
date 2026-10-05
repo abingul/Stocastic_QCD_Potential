@@ -19,7 +19,6 @@
 //    where the first term represents one-gluon exchange (Coulomb) and the second term
 //    models color screening / string breaking.
 //
-// Outputs: Energy eigenvalues {Etar} and {Etar} and discrete radial potential values.
 //
 // Author : Ahmet.Bingul(at)cern.ch
 // Date   : September 2026
