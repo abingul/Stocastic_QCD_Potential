@@ -43,10 +43,24 @@ he main ROOT macro program that implements the stochastic reconstruction algorit
 
 ### Running the Code
 
-    Execute the main script within ROOT interactively or in batch mode:
+    Execute the main script within ROOT interactively or in standalone c++:
     Run interactively in ROOT
-      root -l skeleton.cc
+      $ root -l skeleton.cc
 
     Compile and run in standalone c++
-      g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
-      ./skeleton
+      $ g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
+      $ ./skeleton
+
+Contact: Ahmet.Bingul@cern.ch
+
+Citation: If you use this code or method in your research, please cite
+
+@article{Bingul:2026stochastic,
+  author        = "Bing{\"u}l, Ahmet and {\"O}zpineci, Altu{\u{g}}",
+  title         = "{A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia}",
+  journal       = "arXiv preprint arXiv:2605.23896",
+  archivePrefix = "arXiv",
+  eprint        = "2605.23896",
+  primaryClass  = "hep-ph",
+  year          = "2026"
+}
