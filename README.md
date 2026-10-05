@@ -27,3 +27,26 @@ A supporting C++/ROOT class providing forward and inverse solving tools:
 * **Forward Calculation:** Solves the Schrödinger equation for a target screened baseline interaction:
   ```math
   V_{\text{eff}}(r) = -\frac{4}{3}\frac{\alpha_s}{r} + \frac{\sigma}{\mu} \left(1 - e^{-\mu r}\right)
+
+where the first term is the Coulomb interaction (one-gluon exchange) and the second term models color screening / string breaking.
+
+Output: Generates reference target energy eigenvalues $\{E_n^{\text{tar}}\}$, and exact and reconstructed potential profile values.
+
+### 2. `skeleton.cc`
+he main ROOT macro program that implements the stochastic reconstruction algorithm using StochasticSolver.h.
+
+## Prerequisites & Usage
+### Dependencies
+
+   * C++ Compiler: C++17 or higher
+   * ROOT Framework: CERN ROOT (v6.xx recommended)
+
+### Running the Code
+
+    Execute the main script within ROOT interactively or in batch mode:
+    # Run interactively in ROOT
+    root -l skeleton.cc
+
+    # Run in batch mode
+    root -b -q skeleton.cc
+
