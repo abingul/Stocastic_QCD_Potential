@@ -44,9 +44,9 @@ he main ROOT macro program that implements the stochastic reconstruction algorit
 ### Running the Code
 
     Execute the main script within ROOT interactively or in batch mode:
-    # Run interactively in ROOT
-    root -l skeleton.cc
+    Run interactively in ROOT
+      root -l skeleton.cc
 
-    # Run in batch mode
-    root -b -q skeleton.cc
-
+    Compile and run in standalone c++
+      g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
+      ./skeleton
