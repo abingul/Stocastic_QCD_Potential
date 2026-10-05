@@ -51,9 +51,8 @@ he main ROOT macro program that implements the stochastic reconstruction algorit
       $ g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
       $ ./skeleton
 
-Contact: Ahmet.Bingul@cern.ch
-
-Citation: If you use this code or method in your research, please cite
+## Citation
+If you use this code or method in your research, please cite
 
 @article{Bingul:2026stochastic,
   author        = "Bing{\"u}l, Ahmet and {\"O}zpineci, Altu{\u{g}}",
