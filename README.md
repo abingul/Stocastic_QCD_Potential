@@ -30,10 +30,9 @@ A supporting C++/ROOT class providing forward and inverse solving tools:
 
 where the first term is the Coulomb interaction (one-gluon exchange) and the second term models color screening / string breaking.
 
-Output: Generates reference target energy eigenvalues $\{E_n^{\text{tar}}\}$, and exact and reconstructed potential profile values.
-
 ### 2. `skeleton.cc`
-he main ROOT macro program that implements the stochastic reconstruction algorithm using StochasticSolver.h.
+The main ROOT macro program that implements the stochastic reconstruction algorithm using StochasticSolver.h.
+Outputs: Energy eigenvalues Etar and Ecal and discrete radial potential values.
 
 ## Prerequisites & Usage
 ### Dependencies
