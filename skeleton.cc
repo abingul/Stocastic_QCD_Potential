@@ -11,6 +11,8 @@
 //    $ g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
 //    $ ./skeleton
 //
+// Outputs: Energy eigenvalues {Etar} and {Ecal} and discrete radial potential values.
+//
 // Author: Ahmet.Bingul(at)cern.ch
 // Date  ; Oct 2026
 //////////////////////////////////////////////////////////////////////////////////////////////
