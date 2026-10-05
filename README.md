@@ -62,4 +62,4 @@ If you use this code or method in your research, please cite
      eprint        = "2605.23896",
      primaryClass  = "hep-ph",
      year          = "2026"
-   }
+    }
