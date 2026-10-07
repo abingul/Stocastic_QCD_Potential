@@ -56,7 +56,7 @@ Starting Monte Carlo for =  5000000 trials and seed = 4507
 
 ### Running the Code
 
-Execute the main script within ROOT interactively or in standalone c++:
+You can execute the main script within ROOT interactively or in standalone c++:
 
     Run interactively in ROOT
       $ root skeleton.cc
