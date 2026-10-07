@@ -32,7 +32,21 @@ where the first term is the Coulomb interaction (one-gluon exchange) and the sec
 
 ### 2. `skeleton.cc`
 The main ROOT macro program that implements the stochastic reconstruction algorithm using StochasticSolver.h.
-Outputs: Energy eigenvalues Etar and Ecal and discrete radial potential values.
+Outputs: Energy eigenvalues True and calculated energy eigenvalues and discrete radial potential values. Such as
+Starting Monte Carlo for =  5000000 trials and seed = 4507
+
+    Trail# = 0   chi2 = 0.3392 seed = 4507
+    True  Energies  : 0.7340 1.7617 2.4564 3.0006 3.4500 3.8313 4.1594 4.4443 4.6932 4.9131 5.1223 5.3514
+    Calc. Energies  : 0.7584 1.8641 2.4693 2.9297 3.4061 3.7945 4.1541 4.5025 4.8510 5.1793 5.4518 5.6859
+    True  Potential : 0.0000 1.0876 1.9781 2.7071 3.3040 3.7927 4.1928 4.5204 4.7886 5.0082 5.1880
+    Calc. Potential : 0.0000 1.1558 2.2218 2.4261 3.2600 3.7521 4.2756 5.0150 5.4116 5.6103 5.9779
+    . . .
+    Trail# = 93   chi2 = 0.0556 seed = 4507
+    True  Energies  : 0.7340 1.7617 2.4564 3.0006 3.4500 3.8313 4.1594 4.4443 4.6932 4.9131 5.1223 5.3514
+    Calc. Energies  : 0.7029 1.7871 2.4893 2.9799 3.4051 3.7316 4.0189 4.3199 4.6258 4.8939 5.1330 5.3693
+    True  Potential : 0.0000 1.0876 1.9781 2.7071 3.3040 3.7927 4.1928 4.5204 4.7886 5.0082 5.1880
+    Calc. Potential : 0.0000 1.0630 2.1238 2.6526 3.2496 3.6215 3.8805 4.5005 4.9084 5.1332 5.9414
+
 
 ## Prerequisites & Usage
 ### Dependencies
@@ -44,7 +58,7 @@ Outputs: Energy eigenvalues Etar and Ecal and discrete radial potential values.
 
     Execute the main script within ROOT interactively or in standalone c++:
     Run interactively in ROOT
-      $ root -l skeleton.cc
+      $ root skeleton.cc
 
     Compile and run in standalone c++
       $ g++ skeleton.cc -o skeleton -O3 `root-config --cflags --glibs`
